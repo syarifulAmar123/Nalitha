@@ -118,5 +118,22 @@
     >
       GOOD LUCK YAA SAYANG
     </footer>
+
+    <!-- Lagu -->
+    <audio id="bgMusic" autoplay loop>
+      <source src="/lesung-pipi.mp3" type="audio/mpeg" />
+      Browser kamu tidak mendukung audio 😢
+    </audio>
+
+    <!-- Lagu End -->
+
+    <script>
+      // Autoplay yang aktif saat user klik pertama kali
+      window.addEventListener("click", function playAudioOnce() {
+        const audio = document.getElementById("bgMusic");
+        audio.play();
+        window.removeEventListener("click", playAudioOnce); // hanya sekali
+      });
+    </script>
   </body>
 </html>
