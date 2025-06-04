@@ -10,7 +10,7 @@ module.exports = {
         "spin-slow": "spin 3s linear infinite",
         "muncul-terus": "wiggle .5s linear 1 forwards",
         "muncul-terus-bawah": "wiggleBawah .5s linear 1 forwards",
-        "fade-in": "fadein 0.5s ease-out",
+        "fade-in": "fadein 2s linear 1 forwards",
         "fade-out": "fadeout 0.5s ease-in",
       },
       keyframes: {
