@@ -2017,6 +2017,10 @@ video {
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
 }
 
+.bg-\[url\(\'img\/pngegg\.png\'\)\] {
+  background-image: url('img/pngegg.png');
+}
+
 .from-red-600 {
   --tw-gradient-from: #dc2626 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(220 38 38 / 0) var(--tw-gradient-to-position);
