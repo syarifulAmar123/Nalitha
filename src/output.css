@@ -2013,12 +2013,12 @@ video {
   background-image: url('/img/pngegg.png');
 }
 
-.bg-gradient-to-t {
-  background-image: linear-gradient(to top, var(--tw-gradient-stops));
-}
-
 .bg-\[url\(\'img\/pngegg\.png\'\)\] {
   background-image: url('img/pngegg.png');
+}
+
+.bg-gradient-to-t {
+  background-image: linear-gradient(to top, var(--tw-gradient-stops));
 }
 
 .from-red-600 {
