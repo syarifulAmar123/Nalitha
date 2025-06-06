@@ -1989,6 +1989,10 @@ video {
   background-color: rgb(131 24 67 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[transalteY\(20px\)\] {
+  background-color: transalteY(20px);
+}
+
 .bg-\[url\(\'\.\.\/\.\/img\/1\.jpg\'\)\] {
   background-image: url('.././img/1.jpg');
 }
