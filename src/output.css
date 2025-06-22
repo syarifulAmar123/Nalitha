@@ -2001,12 +2001,12 @@ video {
   background-image: url('.././img/3.jpg');
 }
 
-.bg-\[url\(\'\.\.\/\.\/img\/4\.jpg\'\)\] {
-  background-image: url('.././img/4.jpg');
-}
-
 .bg-\[url\(\'\.\.\/\.\/img\/5\.jpg\'\)\] {
   background-image: url('.././img/5.jpg');
+}
+
+.bg-\[url\(\'\.\.\/\.\/img\/z\.jpg\'\)\] {
+  background-image: url('.././img/z.jpg');
 }
 
 .bg-\[url\(\'\/img\/pngegg\.png\'\)\] {
@@ -2019,6 +2019,10 @@ video {
 
 .bg-gradient-to-t {
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
+}
+
+.bg-\[url\(\'\.\.\/\.\/img\/4\.jpg\'\)\] {
+  background-image: url('.././img/4.jpg');
 }
 
 .from-red-600 {
